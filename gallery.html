@@ -1,0 +1,71 @@
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TheGotma - Галерея</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+
+    <header class="bg-dark text-white py-3">
+        <div class="container">
+            <div class="d-flex justify-content-between align-items-center">
+                <h1 class="m-0">TheGotma</h1>
+                <nav>
+                    <ul class="nav">
+                        <li class="nav-item"><a href="index.html" class="nav-link">Главная</a></li>
+                        <li class="nav-item"><a href="features.html" class="nav-link">Особенности</a></li>
+                        <li class="nav-item"><a href="gallery.html" class="nav-link">Галерея</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="carousel py-5">
+            <div class="container text-center">
+                <h2>Персонажи Enter / Shift+Enter</h2>
+                <div class="carousel-container">
+                    <button class="carousel-left carousel-button">←</button>
+                    <div class="image-container">
+                        <div class="image-wrapper wrapper-1">
+                            <img data-src="img/1.png" alt="Персонаж 1" class="carousel-image">
+                            <div class="character-description">Воин теней - мастер скрытности и быстрых ударов.</div>
+                        </div>
+                        <div class="image-wrapper">
+                            <img data-src="img/2.png" alt="Персонаж 2" class="carousel-image">
+                            <div class="character-description">Маг огня - повелитель стихий и разрушительных заклинаний.</div>
+                        </div>
+                        <div class="image-wrapper">
+                            <img data-src="img/3.png" alt="Персонаж 3" class="carousel-image">
+                            <div class="character-description">Рыцарь света - защитник слабых и борец за справедливость.</div>
+                        </div>
+                    </div>
+                    <button class="carousel-right carousel-button">→</button>
+                </div>
+                <div class="carousel-indicators"></div>
+                <div class="button-container-small">
+                    <button class="carousel-left-small carousel-button-small">←</button>
+                    <button class="carousel-right-small carousel-button-small">→</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-dark text-white text-center py-3">
+        <div class="container">
+            <p>© 2025 TheGotma. Все права защищены.</p>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="js/gallery.js"></script>
+</body>
+
+</html>
